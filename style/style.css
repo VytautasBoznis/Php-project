@@ -1,0 +1,54 @@
+.side-menu {
+	width: 18%;
+	height: auto;
+	float: left;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.content {
+	width: 80%;
+	height: auto;
+	float: right;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.login-form {
+	width: 300px;
+	height: auto;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.register-form {
+	width: 400px;
+	height: auto;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+
+table, th, td {
+    border: 1px solid black;
+	text-align: center;
+} 

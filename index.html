@@ -1,0 +1,22 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	</head>
+	<body>
+		<?php
+			session_start();
+		?>
+		<div id =  'login' class ='login-form'>
+			Noredami testi turite prisijungti:<br><br>
+			<form action = "login.php" method="post" >
+				Vartotojo vardas: <input type = "text" name = "user_name"><br>
+				Slaptazodis: <input type = "password" name = "user_pass"><br>
+				<button type="submit">Prisijungti</button>
+			</form>
+			<form action = "register.php">
+				Registracija naujiems vartotojams:<br>
+				<button type="submit">Prisiregistruoti</button>
+			</form>
+		</div>
+	</body>
+</html>
